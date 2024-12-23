@@ -27,10 +27,9 @@ cout<<"Masukan angka :";
 
 }
 
-void mPertama(string pesan){
-system("cls");
-cout<<"hallo saya menu "<<pesan;
-getch();
+void tampilkanData(int p)
+{
+  cout << sikc[p].nim<<" , "<< sikc[p].nama<<" , "<< sikc[p].alamat<<" , "<<sikc[p].ipk<<endl;
 }
 
 
@@ -44,18 +43,18 @@ do
   {
    case '1':
     /* code */
-    mPertama("pertama");
+    // mPertama("pertama");
     break;
    case '2':
-    mPertama("ke- dua");
+    // mPertama("ke- dua");
     /* code */ 
     break;  
    case '3':
-    mPertama("ke- tiga");
+    // mPertama("ke- tiga");
     /* code */
     break;  
    case '4':
-    mPertama("ke- empat");
+    // mPertama("ke- empat");
     /* code */
     break;  
   case '5':
