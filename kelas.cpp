@@ -1,6 +1,15 @@
 #include <iostream>
+#include <string>
 #include <conio.h>
 using namespace std;
+
+struct mahasiswa
+{
+  string nim;
+  string nama;
+  string alamat;
+  float ipk;
+};
 
 
 void dMenu(){
