@@ -73,8 +73,12 @@ do
     masukkanData();
     break;
    case '2':
-    // mPertama("ke- dua");
-    /* code */ 
+    system("cls");
+    for (int i = 0; i <= pos; ++i)
+    {
+      tampilkanData(i);
+    }
+    getch();
     break;  
    case '3':
     // mPertama("ke- tiga");
