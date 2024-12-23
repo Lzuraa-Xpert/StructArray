@@ -48,6 +48,19 @@ void masukkanData()
   cin.ignore(numeric_limits<streamsize>::max(), '\n');
 }
 
+void perbaikanData(int p)
+{
+  system("cls");
+  fflush(stdin);
+  cout << "Masukkan Nama: ";
+  getline (cin, sikc[p].nama);
+  cout << "Masukkan Alamat: ";
+  getline (cin, sikc[p].alamat);
+  cout << "Masukkan IPK: ";
+  cin >> sikc[p].ipk;
+  cin.ignore(numeric_limits<streamsize>::max(), '\n');
+}
+
 int main() {
 char pl;
 do
