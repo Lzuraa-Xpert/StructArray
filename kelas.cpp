@@ -81,8 +81,12 @@ do
     getch();
     break;  
    case '3':
-    // mPertama("ke- tiga");
-    /* code */
+    system("cls");
+    int indexPerbaikan;
+    cout << "Masukkan index data yang akan diperbarui: ";
+    cin >> indexPerbaikan;
+    cin.ignore();
+    perbaikanData(indexPerbaikan);
     break;  
    case '4':
     // mPertama("ke- empat");
