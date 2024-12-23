@@ -17,7 +17,7 @@ int pos=-1;
 
 void dMenu(){
 system("cls");
-cout<<"Aplikasi Array of Struct"<<"\n";       
+cout<<"Aplikasi CRUD kelas"<<"\n";       
 cout<<"1. Masukkan Data"<<"\n";            
 cout<<"2. Tampilkan Data"<<"\n";            
 cout<<"3. Perbaikan Data"<<"\n";           
