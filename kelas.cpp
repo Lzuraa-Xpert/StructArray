@@ -89,8 +89,19 @@ do
     perbaikanData(indexPerbaikan);
     break;  
    case '4':
-    // mPertama("ke- empat");
-    /* code */
+    system("cls");
+    int indexHapus;
+    cout << "Masukkan index data yang akan dihapus: ";
+    cin >> indexHapus;
+    cin.ignore();
+    if (indexHapus <= pos && indexHapus >= 0)
+    {
+      for (int i = indexHapus; i < pos; ++i)
+      {
+        sikc[i] = sikc[i + 1];
+      }
+      pos--;
+    }
     break;  
   case '5':
     /* code */
