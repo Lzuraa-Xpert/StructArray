@@ -70,8 +70,7 @@ do
   switch (pl)
   {
    case '1':
-    /* code */
-    // mPertama("pertama");
+    masukkanData();
     break;
    case '2':
     // mPertama("ke- dua");
