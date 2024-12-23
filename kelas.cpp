@@ -11,6 +11,9 @@ struct mahasiswa
   float ipk;
 };
 
+mahasiswa sikc[30];
+
+int pos=-1;
 
 void dMenu(){
 system("cls");
